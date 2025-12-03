@@ -1,0 +1,2 @@
+This is the content of the text file loaded via AJAX.
+It demonstrates that the server request was successful!

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Timetable 5A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            text-align: center;
+        }
+        table {
+            margin: 20px auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+            box-shadow: 4px 6px 15px rgba(0,0,0,0.2);
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            min-width: 90px;
+        }
+        th {
+            background-color: lightgray;
+        }
+        .day {
+            position: sticky;
+            left: 0;
+            background-color: skyblue;
+            z-index: 2;
+        }
+        th {
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        }
+        /* Hover effects removed */
+        .lab { background-color: lightgreen; }
+        .soft { background-color: peachpuff; }
+        .forum { background-color: lightblue; }
+        .break { background-color: lightcoral; }
+        .ai { background-color: lavender; }
+        .time { background-color: lightyellow; }
+        .morning { background-color: palegreen; font-weight: bold; }
+        .afternoon { background-color: moccasin; font-weight: bold; }
+        h2 {
+            color: darkgreen;
+            text-align: center;
+            text-shadow: 1px 1px 3px gray;
+        }
+        p {
+            text-align: center;
+            font-size: 14px;
+        }
+        /* Legend styles removed */
+        .table-container {
+            overflow-x: auto;
+            max-width: 95%;
+            margin: auto;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Class Timetable for Academic Year 2025-2026 (Odd Semester)</h2>
+    <p><b>Sem & Section:</b> 5A<br>
+       <b>Class Coordinator:</b> Mrs. Reshma<br>
+       <b>Room Number:</b> AI06-2F05-LH</p>
+
+    <div class="table-container">
+    <table>
+        <thead>
+        <tr>
+            <th scope="col" class="day">Day / Time</th>
+            <th scope="col" class="time">8:45-9:40</th>
+            <th scope="col" class="time">9:40-10:35</th>
+            <th scope="col" class="time">10:35-10:50</th>
+            <th scope="col" class="time">10:50-11:45</th>
+            <th scope="col" class="time">11:45-12:40</th>
+            <th scope="col" class="time">12:40-1:40</th>
+            <th scope="col" class="time">1:40-2:35</th>
+            <th scope="col" class="time">2:35-3:30</th>
+            <th scope="col" class="time">3:30-4:25</th>
+            <th scope="col" class="time">4:25-5:20</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="morning day">Morning Session</td>
+            <td class="afternoon">Afternoon Session</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="day">Monday</td>
+            <td>TOC</td>
+            <td>TOC</td>
+            <td class="break">Tea Break</td>
+            <td>CN</td>
+            <td>SE</td>
+            <td class="break">Lunch Break</td>
+            <td class="lab">A1 – WEB LAB</td>
+            <td class="lab">A1 – WEB LAB</td>
+            <td>SE</td>
+            <td>RM</td>
+        </tr>
+        <tr>
+            <td class="day">Tuesday</td>
+            <td class="soft">Soft skills</td>
+            <td class="soft">Soft skills</td>
+            <td class="lab">CN LAB</td>
+            <td class="lab">CN LAB</td>
+            <td>SE</td>
+            <td>RM</td>
+            <td class="ai">AI</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="day">Wednesday</td>
+            <td class="lab">A2 – WEB LAB</td>
+            <td class="lab">A2 – WEB LAB</td>
+            <td class="ai">AI</td>
+            <td>RM</td>
+            <td>TOC</td>
+            <td class="forum">Forum Activity</td>
+            <td class="forum">Forum Activity</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="day">Thursday</td>
+            <td>SE</td>
+            <td>CN</td>
+            <td>RM</td>
+            <td>TOC</td>
+            <td class="soft">Soft skills</td>
+            <td class="soft">Soft skills</td>
+            <td class="ai">AI</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="day">Friday</td>
+            <td>TOC</td>
+            <td>EVS</td>
+            <td>SE</td>
+            <td>RM</td>
+            <td class="ai">AI</td>
+            <td>CN</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <!-- Legend removed -->
+</body>
+</html>

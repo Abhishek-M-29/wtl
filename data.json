@@ -1,0 +1,10 @@
+{
+  "program": "Web Technology Lab",
+  "code": "BCSL504",
+  "topic": "AJAX and JSON",
+  "students": [
+    { "name": "Alice", "role": "Developer" },
+    { "name": "Bob", "role": "Designer" }
+  ],
+  "status": "Active"
+}
